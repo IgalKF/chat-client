@@ -30,7 +30,7 @@ function App() {
                     <span>Igal:</span> <span>igalkf@gmail.com</span>
                   </li>
                   <li>
-                    <span>Reuven:</span> <span>ruby@gmail.com</span>
+                    <span>Reuven:</span> <span>1robib1@gmail.com</span>
                   </li>
                 </ul>
               </div>
