@@ -1,8 +1,7 @@
-import React, { MutableRefObject, useRef, useState } from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { chatService } from "./chat-service";
 import SendIcon from "./icons/chat copy";
-import { Buffer } from "node:buffer";
 
 function Room() {
   const { room } = useParams();

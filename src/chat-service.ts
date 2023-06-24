@@ -1,6 +1,6 @@
 import { Buffer } from "buffer";
 
-const rooms: WebSocket[] = [];
+// For further information on the methods done in this file refer our `Algorithm Documentation.ipynb` file.
 const e = BigInt(65537);
 const socket = new WebSocket("ws://localhost:12345");
 
@@ -44,8 +44,6 @@ socket.onopen = () => {
 socket.onerror = (err) => [console.log(err)];
 
 socket.onclose = () => [alert("Connection is done!")];
-
-rooms.push(socket);
 
 const mockData = [
   { id: 1, name: "Room 1" },
